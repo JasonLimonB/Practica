@@ -8,4 +8,4 @@ El poryecto esta hecho con Angular
 
 ### Visitame!!
 
-También si gustas puedes visitar mi pagina [Quetzcode](https://en.wikipedia.org/wiki/Markdown)
+También si gustas puedes visitar mi pagina [Quetzcode](https://www.quetzcode.com/)
