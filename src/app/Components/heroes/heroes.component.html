@@ -1,3 +1,16 @@
-<p>
-  heroes works!
-</p>
+<div class="container animated fadeIn">
+
+  <div class="card-columns mt-5">
+    <div class="container">
+      <div class="card" *ngFor="let heroe of heroes" >
+        <img [src]="heroe.img" class="card-img-top " [alt]="heroe.nombre">
+        <div class="card-body">
+          <h5 class="card-title"> {{ heroe.nombre }} </h5>
+          <p class="card-text"> {{heroe.bio}} </p>
+          <button type="button" class="btn btn-block btn-outline-primary"> Leer mas </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

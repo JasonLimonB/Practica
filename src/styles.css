@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face{
+  font-family: "Quick";
+  src: url(./assets/Fonts/Quicksand-Regular.ttf);
+}
+
+*{
+  font-family: Quick;
+}

@@ -8,7 +8,12 @@ import { HeroesComponent } from './Components/heroes/heroes.component';
 import { AboutComponent } from './Components/about/about.component';
 import { NoFound404Component } from './Components/Shared/no-found404/no-found404.component';
 
+// Importacion de Rutas
 import { APP_ROUTING } from './app.routes';
+
+// Importacion de Servicio
+import { HeroesService } from './Servicios/heroes.service';
+
 
 @NgModule({
   declarations: [
@@ -23,7 +28,7 @@ import { APP_ROUTING } from './app.routes';
     BrowserModule,
     APP_ROUTING
   ],
-  providers: [],
+  providers: [HeroesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

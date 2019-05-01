@@ -1,0 +1,20 @@
+.about-img{
+  text-align: center;
+}
+.about-img img{
+  width: 250px;
+  height: 400px;
+}
+
+.myGitHub{
+  width: 100px;
+  padding: 10px 20px;
+  background: #3483FA;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.myGitHub:hover{
+  text-decoration: none;
+  background: #3483fac7;
+}
