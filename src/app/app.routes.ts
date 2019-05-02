@@ -5,8 +5,10 @@ import { HeroeComponent } from './Components/heroe/heroe.component';
 import { HeroesComponent } from './Components/heroes/heroes.component';
 import { HomeComponent } from './Components/home/home.component';
 import { NoFound404Component } from './Components/Shared/no-found404/no-found404.component';
+import { BuscadorComponent } from './Components/buscador/buscador.component';
 
 const APP_ROUTES: Routes = [
+  { path: 'buscar/:termino', component: BuscadorComponent },
   { path: 'home', component: HomeComponent },
   { path: 'heroes', component: HeroesComponent },
   { path: 'about', component:  AboutComponent},

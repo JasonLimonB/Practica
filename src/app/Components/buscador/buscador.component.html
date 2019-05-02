@@ -1,0 +1,20 @@
+<div class="container animated zoomIn fast" *ngIf="heroes.length == 0" >
+  <div class="row mt-5">
+    <div class="col-md-12 alert alert-danger" role="alert">
+      No existen resultados de la busqueda.
+    </div>
+  </div>
+</div>
+
+
+<div class="container animated fadeIn">
+
+  <div class="card-columns mt-5">
+    <div class="container">
+
+      <app-heroe-tarjeta [heroe]="iHeroe" [index]="iHeroe.idx" *ngFor="let iHeroe of heroes"></app-heroe-tarjeta>
+
+    </div>
+  </div>
+
+</div>

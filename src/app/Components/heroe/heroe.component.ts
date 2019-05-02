@@ -18,7 +18,6 @@ export class HeroeComponent implements OnInit {
                private router: Router ) {
 
     this.activatedRoute.params.subscribe( params => {
-      console.log(params.id);
       this.heroe = this.hServicio.getHeroe(params.id);
     });
 

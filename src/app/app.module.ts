@@ -14,6 +14,8 @@ import { APP_ROUTING } from './app.routes';
 
 // Importacion de Servicio
 import { HeroesService } from './Servicios/heroes.service';
+import { BuscadorComponent } from './Components/buscador/buscador.component';
+import { HeroeTarjetaComponent } from './Components/heroe-tarjeta/heroe-tarjeta.component';
 
 
 @NgModule({
@@ -24,7 +26,9 @@ import { HeroesService } from './Servicios/heroes.service';
     HeroesComponent,
     HomeComponent,
     NavbarComponent,
-    NoFound404Component
+    NoFound404Component,
+    BuscadorComponent,
+    HeroeTarjetaComponent
   ],
   imports: [
     BrowserModule,
