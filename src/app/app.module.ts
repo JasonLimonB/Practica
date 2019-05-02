@@ -2,10 +2,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './Components/Shared/navbar/navbar.component';
+import { AboutComponent } from './Components/about/about.component';
 import { HomeComponent } from './Components/home/home.component';
 import { HeroesComponent } from './Components/heroes/heroes.component';
-import { AboutComponent } from './Components/about/about.component';
+import { HeroeComponent } from './Components/heroe/heroe.component';
+import { NavbarComponent } from './Components/Shared/navbar/navbar.component';
 import { NoFound404Component } from './Components/Shared/no-found404/no-found404.component';
 
 // Importacion de Rutas
@@ -17,11 +18,12 @@ import { HeroesService } from './Servicios/heroes.service';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    NavbarComponent,
-    HomeComponent,
-    HeroesComponent,
     AboutComponent,
+    AppComponent,
+    HeroeComponent,
+    HeroesComponent,
+    HomeComponent,
+    NavbarComponent,
     NoFound404Component
   ],
   imports: [

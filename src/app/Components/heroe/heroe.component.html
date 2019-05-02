@@ -1,0 +1,26 @@
+<div class="container mt-5 animated fadeIn" >
+  <div class="row">
+    <!-- Imagen del heroes en un card -->
+    <div class="col-sm-12 col-md-4 contenedor-img text-center">
+      <img [alt]="heroe.nombre" [src]="heroe.img">
+    </div>
+
+    <!-- Descripcion del heroe texto -->
+    <div class="col-sm-12 col-md-8 heroes-decription mt-2 ">
+
+      <h4> {{heroe.nombre}} </h4>
+
+      <p class="text-justify mt-3"> {{ heroe.bio }} </p>
+
+      <p>Fecha de aparicion</p>
+      <small class="text-black-50"> {{ heroe.aparicion }} </small>
+
+      <div>
+        <img *ngIf="heroe.casa == 'DC'"  class="mt-3" [alt]="heroe.casa" src="assets/img/dc.png">
+        <img *ngIf="heroe.casa == 'Marvel'" class="mt-3" [alt]="heroe.casa" src="assets/img/marvel.png">
+      </div>
+      <button (click)="volver()"  type="button" class="mt-2 btn-volver btn btn-danger">Volver</button>
+
+    </div>
+  </div>
+</div>

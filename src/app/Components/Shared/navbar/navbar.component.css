@@ -8,18 +8,18 @@
 }
 
 .form-inp:focus{
-border: 1px solid #3483FA;
+border: 1px solid #3273DC;
 width: 200px;
 transition: 0.4s all ease;
 }
 
 .mybtn{
-  border: 1px solid #3483FA;
+  border: 1px solid #3273DC;
   background: #fff;
   color: #6b6b6b;
 }
 
 .mybtn:hover{
-  background: #3483FA;
+  background: #3273DC;
   color: #fff;
 }
